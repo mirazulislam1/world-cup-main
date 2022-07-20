@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/* started style */
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+/* header section */
+.top-banner{ 
+   width: 1260px;
+   margin: auto;
+
+}
+.top-div{
+    display: flex;
+    background-color: #161616;
+    border-radius: 30px;
+    padding-left: 25px;
+    justify-content: space-around;
+    align-items: center;
+}
+.banner-info{
+    width: 50%;
+}
+.banner-info h1{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 70px;    
+}
+.banner-info p{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 20px;
+    /* width: 506px;
+    height: 78px; */
+}
+.banner-img img {
+   width: 95%;  
+}
+.botton-link{
+    background-color: #DD0000;
+    color: #FFFFFF;
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+}
+/* header section end */
+/* container section */
+.container{
+    width: 1260px; 
+    margin: auto;
+}
+.container-title{
+    display: flex;
+    gap:10px;
+    margin: 100px 0;
+ }
+.anchor-title{
+    width: 20%;
+   background-color:  #161616;
+    height: 250px;
+    border-radius: 5px;
+}
+.match{
+    text-align: center;
+}
+.match button{
+    width: 200px;
+    height: 50px;
+    margin: 15px;
+    border-radius: 5px;
+}
+.match button a{
+    text-decoration: none;
+    color: #161616;
+    font-size: 15px;
+    font-weight: 500;
+}
+#blog {
+    background-color: #DD0000;
+    
+}
+#blog a{
+    color: #FFFFFF;
+}
+/* container main section */
+.transfer-item, .sub-index{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 80%;
+    gap: 20px; 
+}
+.transfer{
+    width: 312px;
+    height: 340px
+}
+/* index2.html */
+.index-info{
+    text-align: center;
+    width: 312px;
+    height: 190px;
+    padding: 30px;
+    border: 1px solid #E8E8E8;
+}
+/* index2.html end */
+.thumbnail img{
+    width: 312px;
+    height: 175px;
+    border-radius: 10px 10px 0px 0px;
+}
+.button-link{
+    width: 100px;
+    height: 32px;
+    color: #161616;
+}
+.transfer-live{
+    color: #161616;
+    font-weight: 600;
+    font-size: 14px;  
+}
+.fa-regular {
+   margin: 10px;    
+}
+/* container main section end */
+/* footer section */
+footer{
+    width: 100%;
+    height: 250px;
+    background-color: #161616;
+}
+.footer-heading{
+    text-align: center;  
+}
+.footer-title{
+    color: #FFFFFF; 
+    font-weight: 500;
+    font-size: 25px;
+    padding: 20px;
+}
+.footer-anchor a{
+    color: #B9B9B9;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+.icon-menu a{
+    color: #FFFFFF;
+    padding: 10px;   
+}
+/* footer section end */
